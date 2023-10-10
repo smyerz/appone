@@ -1,7 +1,7 @@
 import Logo from './Logo';
 import Btn from './ClickHandler';
 import './App.css';
-//root component is App
+//root file
 //rendered to the browser from index file
 //beginning of error test
 
