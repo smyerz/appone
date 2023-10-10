@@ -1,15 +1,22 @@
 //import avatar from './NOMNOM.png';
-
-import Btn from './Btn';
+import Logo from './Logo';
+import Btn from './ClickHandler';
 import './App.css';
 //beginning of error test
 
 function App() {
   return (
+    <div>
+    <Logo />
     <Btn />
+    </div>
   );
 }
 
+function Logo(props) {
+  const userPic = <img src={avatar} alt="cat with pizza in mouth"/>;
+  return userPic;
+}
 
 /*
 import Card from './Card';
