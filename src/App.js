@@ -1,5 +1,16 @@
-import avatar from './NOMNOM.png';
+//import avatar from './NOMNOM.png';
 import './App.css';
+import Btn from './Btn';
+//beginning of error test
+
+function App() {
+  return (
+    <Btn />
+  );
+}
+
+
+/*
 import Card from './Card';
 
 function Logo(props) {
@@ -20,5 +31,7 @@ function App() {
     </div>
   );
 }
+
+*/
 
 export default App;
