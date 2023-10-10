@@ -5,6 +5,7 @@ body {
 
 button {
   color: black;
+  font-weight: 100;
   font-family: fantasy;
   min-width: 100px;
   min-height: 50px;
