@@ -1,7 +1,8 @@
-//import avatar from './NOMNOM.png';
 import Logo from './Logo';
 import Btn from './ClickHandler';
 import './App.css';
+
+
 //beginning of error test
 
 function App() {
@@ -10,13 +11,10 @@ function App() {
     <Logo />
     <Btn />
     </div>
-  );
+  )
 }
 
-function Logo(props) {
-  const userPic = <img src={avatar} alt="cat with pizza in mouth"/>;
-  return userPic;
-}
+export default App;
 
 /*
 import Card from './Card';
@@ -40,6 +38,6 @@ function App() {
   );
 }
 
-*/
 
 export default App;
+*/
