@@ -1,6 +1,7 @@
 //import avatar from './NOMNOM.png';
-import './App.css';
+
 import Btn from './Btn';
+import './App.css';
 //beginning of error test
 
 function App() {
