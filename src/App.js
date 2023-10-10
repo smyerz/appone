@@ -1,19 +1,20 @@
 import Logo from './Logo';
 import Btn from './ClickHandler';
 import './App.css';
-
-
+//root component is App
+//rendered to the browser from index file
 //beginning of error test
 
 function App() {
   return (
-    <div>
+    <div> 
+      {/* this is a comment in JSX */}      
     <Logo />
     <Btn />
     </div>
   )
 }
-
+//more than one line must have a parent component or </>
 export default App;
 
 /*
