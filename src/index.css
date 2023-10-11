@@ -1,11 +1,12 @@
 body {
   margin: 0;
-
+  background-color: #d6905a;
 }
 
 button {
   color: black;
-  font-weight: 100;
+  font-weight: bolder;
+  background-color: #52c79c;
   font-family: fantasy;
   min-width: 100px;
   min-height: 50px;
