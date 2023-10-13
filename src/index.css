@@ -12,4 +12,6 @@ button {
   min-height: 50px;
 }
 
-
+#js-btn::first-letter{
+  font-size: 300%;
+}
