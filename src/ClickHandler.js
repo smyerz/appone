@@ -10,7 +10,7 @@
 function Btn() {
     const clickHandler = () => console.log('click')
     return (
-        <button onClick={clickHandler}>
+        <button id="js-btn" onClick={clickHandler}>
             click me 
         </button>
     )
